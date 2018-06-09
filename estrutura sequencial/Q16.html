@@ -7,10 +7,13 @@
 <body>
     <script>
         
-       let areaSerPintada = parseFloat(prompt('Informe a área a ser pintada em m²'));
-        let coberturaTinta = parseFloat(1);
-        let lataDeTinta = coberturaTinta * 18;
-        let lataPreco = 80;
+       areaPintar = parseFloat(prompt("Informe a área a ser pintada em m²"));
+        litros = areaPintar / 3;
+        lata = 18;
+        preco = 80.00;
+        resultado = litros * preco;
+        alert("O preço total das latas de tinta é: " + resultado);
+        
         
         
         
